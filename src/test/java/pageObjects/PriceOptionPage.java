@@ -49,7 +49,7 @@ public class PriceOptionPage {
 		 }
 
 		 public PriceOptionPage clickViewQuote() {
-			 ImportantMethods.waitMethod(1);
+			 /*ImportantMethods.waitMethod(1);
 			 wait.until(ExpectedConditions.visibilityOfElementLocated(By.name("View Quote")));
 			 getDriver().findElement(By.name("View Quote")).click();
 			 ImportantMethods.waitMethod(10);
@@ -57,7 +57,7 @@ public class PriceOptionPage {
 			 getDriver().switchTo().window(abas.get(1));
 			 getDriver().close();
 			 getDriver().switchTo().window(abas.get(0));
-			 ImportantMethods.waitMethod(222);
+			 ImportantMethods.waitMethod(222);*/
 
 			 return this;
 		 }	
